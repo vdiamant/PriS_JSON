@@ -2,7 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/[ZENODO-DOI].svg)](https://doi.org/[ZENODO-DOI])
 
-Companion repository to the article **"[MANUSCRIPT TITLE]"**, *[JOURNAL]* ([YEAR]).
+This repository provides companion artifacts for the Privacy Safeguard (PriS) methodology, including JSON templates, illustrative Career Office examples, JSON Schemas, validation tools, and test cases.
+The repository supports the inspection and reuse of machine-readable PriS representations. The JSON Schemas, validator, and tests are newly prepared companion artifacts and should not be interpreted as recovered historical implementations of PriS.
 
 PriS (Privacy Safeguard) is a goal-oriented privacy requirements engineering method. It links privacy
 goals to the organisational goals and business processes they affect, to the Privacy Process Patterns
