@@ -100,8 +100,18 @@ for release.
 
 ## How to cite
 
-Please cite the article and this repository; see `CITATION.cff` or the Zenodo record
-([ZENODO-DOI]).
+If you use the JSON artifacts or validation tools provided
+in this repository, please reference:
+
+https://github.com/vdiamant/PriS_JSON
+
+For the methodological foundations and historical PriS
+material, please cite the relevant original publications
+listed in the References section below.
+
+The citation information for the accompanying retrospective
+article will be added when its publication details become
+available.
 
 ## References
 
