@@ -122,6 +122,22 @@ The citation information for the accompanying retrospective
 article will be added when its publication details become
 available.
 
+## License
+
+The original JSON Schemas, validation scripts, and test suite
+developed for this repository are provided under the MIT License.
+See the [LICENSE](LICENSE) file.
+
+The JSON templates and illustrative Career Office examples are
+based on previously published PriS research, as documented in
+the Provenance section.
+
+The MIT License applies to material for which the repository's
+copyright holder has the rights to grant that license. It does
+not alter the copyright status of the cited publications or
+grant rights to the original PriS-Tool implementation and
+historical BPMN representations, which are not included.
+
 ## References
 
 - Diamantopoulou, V., Kalloniatis, C., Gritzalis, S., Mouratidis, H.: Supporting privacy by design using
