@@ -1,7 +1,5 @@
 # PriS JSON: schemas and examples for machine-readable PriS models
 
-[![DOI](https://zenodo.org/badge/DOI/[ZENODO-DOI].svg)](https://doi.org/[ZENODO-DOI])
-
 This repository provides companion artifacts for the Privacy Safeguard (PriS) methodology, including JSON templates, illustrative Career Office examples, JSON Schemas, validation tools, and test cases.
 The repository supports the inspection and reuse of machine-readable PriS representations. The JSON Schemas, validator, and tests are newly prepared companion artifacts and should not be interpreted as recovered historical implementations of PriS.
 
