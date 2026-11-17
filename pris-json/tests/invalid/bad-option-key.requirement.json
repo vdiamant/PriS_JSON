@@ -1,0 +1,26 @@
+{
+  "privacy requirement": [
+    {
+      "Title": "Protect graduates' anonymity when collecting completed questionnaires.",
+      "Privacy Goal": "Anonymity",
+      "Organisational Goal": {
+        "Title": "Conduct follow-up research on graduates' professional progress (G3.3)",
+        "Parent Goal": "Maintain lifelong communication with graduates (G3)",
+        "Child Goal": "",
+        "Decomposition type": "AND"
+      },
+      "Process": {
+        "Title": "Collect Responses (P4.3)",
+        "Parent Process": "Conduct Graduates Surveys (P4)",
+        "Child Process": "",
+        "Process Pattern": "Anonymity"
+      },
+      "Privacy Enhancing Technologies": {
+        "Option 1": "Crowds",
+        "Option 2": "Onion Routing",
+        "Option 3": "Tor",
+        "Option A": "GAP Protocol"
+      }
+    }
+  ]
+}

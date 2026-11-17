@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:pris:schema:privacy-process-pattern:1.0.0",
+  "title": "PriS Privacy Process Pattern record",
+  "description": "Machine-readable representation of the textual part of a Privacy Process Pattern (Alexandrian format): context, problem, forces, benefits, liabilities, related patterns and implementation techniques grouped by category. Formalises the template in Listing 2 of the manuscript (adapted from Diamantopoulou et al., 2017). The BPMN process fragment of a pattern is kept separately (patterns/bpmn/).",
+  "type": "object",
+  "required": [
+    "Name",
+    "Context",
+    "Problems",
+    "Forces",
+    "Benefits",
+    "Liabilities",
+    "Related patterns",
+    "Implementation techniques"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "Name": {
+      "$ref": "#/$defs/privacyProperty",
+      "description": "Privacy property realised by the pattern."
+    },
+    "Context": { "$ref": "#/$defs/nonEmptyString" },
+    "Problems": { "$ref": "#/$defs/nonEmptyString" },
+    "Forces": { "$ref": "#/$defs/nonEmptyString" },
+    "Benefits": { "$ref": "#/$defs/statementList" },
+    "Liabilities": { "$ref": "#/$defs/statementList" },
+    "Related patterns": {
+      "description": "Patterns that this pattern invokes, presupposes or complements. Should not include the pattern itself (checked by tools/validate.py).",
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/privacyProperty" }
+    },
+    "Implementation techniques": {
+      "description": "Available technical alternatives, grouped by category.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/techniqueCategory" }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "statementList": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "privacyProperty": {
+      "description": "Kept identical to the list in pris-privacy-requirement.schema.json (checked by tests/run_tests.py).",
+      "enum": [
+        "Identification",
+        "Authentication",
+        "Authorisation",
+        "Data Protection",
+        "Anonymity",
+        "Pseudonymity",
+        "Unlinkability",
+        "Undetectability",
+        "Unobservability"
+      ]
+    },
+    "techniqueCategory": {
+      "type": "object",
+      "required": ["Category Name", "Option 1"],
+      "properties": {
+        "Category Name": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "patternProperties": {
+        "^Option [1-9][0-9]*$": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

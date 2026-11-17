@@ -1,0 +1,35 @@
+{
+  "Name": "Anonymity",
+  "Context": "Graduates submit career-office questionnaires, and respondents should not be identifiable to third parties.",
+  "Problems": "Responses could be associated with an identifiable graduate.",
+  "Benefits": [
+    "Allows participation without directly revealing the respondent identity.",
+    "Limits the ability to link questionnaire submissions to individual graduates."
+  ],
+  "Liabilities": [
+    "Anonymity may reduce accountability and complicate abuse investigation.",
+    "Some implementations incur performance and usability costs.",
+    "Protection depends on the size and properties of the anonymity set."
+  ],
+  "Related patterns": [
+    "Pseudonymity",
+    "Unlinkability"
+  ],
+  "Implementation techniques": [
+    {
+      "Category Name": "Anonymizer products, services and architectures",
+      "Option 1": "Crowds",
+      "Option 2": "Onion Routing",
+      "Option 3": "Tor",
+      "Option 4": "GAP Protocol",
+      "Option 5": "DC-nets",
+      "Option 6": "Mix-nets"
+    },
+    {
+      "Category Name": "Track and evidence erasers",
+      "Option 1": "Spyware detection and removal",
+      "Option 2": "Hard-disk data erasure",
+      "Option 3": "Use of dummies"
+    }
+  ]
+}

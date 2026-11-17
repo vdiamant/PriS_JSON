@@ -1,0 +1,29 @@
+{
+  "privacy requirement": [
+    {
+      "Title": "",
+      "Privacy Goal": "",
+
+      "Organisational Goal": {
+        "Title": "",
+        "Parent Goal": "",
+        "Child Goal": "",
+        "Decomposition type": ""
+      },
+
+      "Process": {
+        "Title": "",
+        "Parent Process": "",
+        "Child Process": "",
+        "Process Pattern": ""
+      },
+
+      "Privacy Enhancing Technologies": {
+        "Option 1": "",
+        "Option 2": "",
+        "Option ...": "",
+        "Option n": ""
+      }
+    }
+  ]
+}
