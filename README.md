@@ -67,7 +67,7 @@ express:
 
 - **Faithful to the published templates.** Property names keep their spaces and capitalisation
   (`"privacy requirement"`, `"Organisational Goal"`), and alternatives stay as `"Option 1"`,
-  `"Option 2"`, … objects rather than arrays. Existing PriS JSON files therefore validate unchanged.
+  `"Option 2"`, … objects rather than arrays. The schemas retain the field names and structural conventions of the published templates while introducing explicit validation constraints for populated instances.
 - **Controlled vocabulary.** `Privacy Goal`, `Process Pattern`, pattern `Name` and `Related patterns`
   take one of nine values: Identification, Authentication, Authorisation, Data Protection, Anonymity,
   Pseudonymity, Unlinkability, Undetectability, Unobservability (British spelling, as in the article).
