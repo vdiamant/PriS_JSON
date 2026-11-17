@@ -19,7 +19,7 @@ article as validating instances, and adds a **validator** with consistency check
 | `templates/` | The two published templates, verbatim (documentation only, not validated) | Listings 1–2 |
 | `examples/career-office/anonymity-P4.3.requirement.json` | Anonymity requirement on goal G3.3 and subprocess P4.3 | Listing 3 |
 | `examples/career-office/anonymity.pattern.json` | Anonymity pattern instantiated for the Career Office | Listing 4 |
-| `patterns/bpmn/` | Place for BPMN 2.0 process fragments of the patterns | Section 5 |
+| `patterns/bpmn/` | Documentation of BPMN representations; original editable files are not included | Section 5 |
 | `tools/validate.py` | Schema validation plus consistency checks | Section 7.3 |
 | `tests/` | Self-tests, including invalid files that must be rejected | – |
 
