@@ -1,8 +1,12 @@
-# BPMN fragments of the Privacy Process Patterns
+# BPMN representations
 
-This folder holds the process part of each Privacy Process Pattern as a BPMN 2.0 XML file, named after
-the pattern (e.g. `anonymity.bpmn`, `unobservability.bpmn`). The textual part of each pattern lives in
-`../<pattern>.pattern.json` and follows `schema/pris-privacy-process-pattern.schema.json`.
+This repository does not include native editable BPMN files.
 
-[AUTHORS: add the .bpmn files, or replace this paragraph with a statement that the original BPMN
-fragments are not available and point readers to the figures in Diamantopoulou et al. (2017).]
+The process representations of the Privacy Process Patterns
+are documented in the original publications. The JSON files
+provided here represent the textual descriptions of patterns
+and their relationships with privacy requirements, goals,
+processes, and candidate implementation techniques.
+
+For the original process-pattern representations, see the
+publications listed in the main repository README.
