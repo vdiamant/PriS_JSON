@@ -75,8 +75,9 @@ express:
 
 ## Known limitations (inherited from the v1.0 templates)
 
-These are deliberate in v1.0, to stay compatible with the published templates. They are candidates for a
-v2.0 schema (research direction D2 in Table 3 of the article).
+The current schemas retain several structural characteristics
+of the published PriS JSON templates. The following aspects
+may be reconsidered in future extensions of the schemas:
 
 - A goal or process records a single child, although PriS goal models allow several.
 - A process carries a single `Process Pattern`, although PriS may combine patterns for one process.
