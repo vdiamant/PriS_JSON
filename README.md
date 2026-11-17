@@ -25,10 +25,19 @@ article as validating instances, and adds a **validator** with consistency check
 
 ## Quick start
 
+Clone the repository and navigate to the `pris-json` directory:
+
 ```bash
-pip install -r requirements.txt     # jsonschema >= 4.18
-python tools/validate.py            # validates examples/ and patterns/
-python tests/run_tests.py           # self-tests
+git clone https://github.com/vdiamant/PriS_JSON.git
+cd PriS_JSON/pris-json
+```
+
+Install the required dependency and run the validation tools:
+
+```bash
+python -m pip install -r requirements.txt
+python tools/validate.py --strict
+python tests/run_tests.py
 ```
 
 To validate your own models, name files `*.requirement.json` or `*.pattern.json` and pass them (or their
