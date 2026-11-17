@@ -53,8 +53,7 @@ The schemas also work with any draft 2020-12 validator (e.g. `ajv` with `--spec=
 ## What the validator checks
 
 JSON Schema covers structure and vocabulary: required fields, the nine PriS privacy properties, AND/OR
-decomposition types and `Option N` keys. `tools/validate.py` adds three checks that JSON Schema cannot
-express:
+decomposition types and `Option N` keys. `tools/validate.py` additionally performs three application-level consistency checks:
 
 1. `Option N` keys start at 1 and are consecutive.
 2. A pattern does not list itself in `Related patterns`.
