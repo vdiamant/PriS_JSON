@@ -77,12 +77,26 @@ v2.0 schema (research direction D2 in Table 3 of the article).
 
 ## Provenance
 
-The example files are **illustrative**. `anonymity-P4.3.requirement.json` is adapted from the Career
-Office case study in [CONFIRM: Diamantopoulou et al., 2017 / Kalloniatis, 2017].
-`anonymity.pattern.json` is a reconstruction of the Anonymity Privacy Process Pattern based on
-Diamantopoulou et al. (2017). Neither is an original machine-readable artefact from those studies.
+The file `anonymity-P4.3.requirement.json` is an illustrative
+adaptation of the Career Office JSON instantiation presented
+by Kalloniatis (2017).
 
-**Not included:** [PriS-Tool availability statement – see RELEASE-CHECKLIST.md].
+The file `anonymity.pattern.json` is an illustrative
+reconstruction of the Anonymity Privacy Process Pattern
+based on Diamantopoulou et al. (2017).
+
+Neither example is presented as a recovered original
+machine-readable artifact.
+
+The JSON Schemas, validation script, and test suite were
+prepared as new companion artifacts for the present
+retrospective. They support structural validation and
+selected consistency checks, but do not constitute a
+reimplementation of the historical PriS-Tool.
+
+The original PriS-Tool source code and native editable
+BPMN files are not included, as they are not available
+for release.
 
 ## How to cite
 
